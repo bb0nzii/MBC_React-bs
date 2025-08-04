@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MBC_React-bs/static/css/main.2544e43a.css",
+    "main.js": "/MBC_React-bs/static/js/main.54c6f50e.js",
+    "index.html": "/MBC_React-bs/index.html",
+    "main.2544e43a.css.map": "/MBC_React-bs/static/css/main.2544e43a.css.map",
+    "main.54c6f50e.js.map": "/MBC_React-bs/static/js/main.54c6f50e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2544e43a.css",
+    "static/js/main.54c6f50e.js"
+  ]
+}
