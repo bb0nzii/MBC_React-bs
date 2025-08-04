@@ -34,14 +34,14 @@ import Pagen from './boot/Pagen';
 import Ts from './boot/Ts';
 
 // 라우터 선언
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 
 // 부트스트랩 cdn 선언
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App(){
   return(
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Header/>}>
           <Route index element={<Home/>}/>
@@ -77,7 +77,7 @@ export default function App(){
           <Route path='ts' element={<Ts/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
